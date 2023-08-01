@@ -1,0 +1,31 @@
+package a7TestngXMLforBatchExecution;
+
+import org.testng.annotations.Test;
+
+public class cDemo {
+	
+	@Test(priority = -2)
+	public void methodOne()
+	{
+		System.out.println("aDemo - MethodOne");
+	}
+	
+	@Test(priority = 0)
+	public void methodTwo()
+	{
+		System.out.println("aDemo - MethodTwo");
+	}
+	
+	@Test(priority = 2)
+	public void methodThree()
+	{
+		System.out.println("aDemo - MethodThree");
+	}
+	
+	@Test
+	public void methodFour()
+	{
+		System.out.println("aDemo - MethodFour");
+	}
+
+}

@@ -1,0 +1,11 @@
+package thirdAutoGeneratingClassesOfTestng;
+
+import org.testng.annotations.Test;
+
+public class SimpleWayofCreatingTestNGClasses {
+	
+	
+	@Test
+	public void f() {
+	}
+}

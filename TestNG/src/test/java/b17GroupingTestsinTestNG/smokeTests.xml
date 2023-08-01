@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="LoginTest">
+    <classes>
+      <class name="b17GroupingTestsinTestNG.aLogin">
+      	<methods>
+      		<include name="loginwithvalididandvalidpassword" />
+      		<include name="loginwithNoidandNopassword" />
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="RegisterTest">
+    <classes>
+      <class name="b17GroupingTestsinTestNG.bRegister">
+      <methods>
+      		<include name="registerwithAllfields" />
+      		<include name="registerwithDuplicatefields" />
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="SearchTest">
+    <classes>
+      <class name="b17GroupingTestsinTestNG.cSearch">
+      <methods>
+      		<include name="serachwithInvalidProduct" />
+      		<include name="serachwithEmptyProduct" />
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

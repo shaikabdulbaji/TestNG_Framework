@@ -1,0 +1,64 @@
+package b10TestNGAnnotations;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+/*
+ * If all the tests got passed then browser will close, if one test will fail then browser will not close
+   then we remove and put driver.quit() under "@AfterMethod" method.
+ */
+
+
+public class aDemo {
+	
+	WebDriver driver;
+	
+	@AfterMethod
+	public void tearDown()
+	{
+		driver.quit();
+	}
+	
+	@Test(priority = 1)
+	public void validIdandvalidPassswordCredentials()
+	{
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver(); // Launch ChromeBrowser
+		driver.manage().window().maximize();   // Maximize Browser Window
+		driver.get("https://tutorialsninja.com/demo");  // Application URL
+		
+		driver.findElement(By.xpath("//span[text()='My Account']")).click();
+		driver.findElement(By.xpath("//a[text()='Login']")).click();
+		driver.findElement(By.id("input-email")).sendKeys("amotooricap1@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("12345");
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		
+		Assert.assertTrue(driver.findElement(By.xpath("//a[text()='Edit your account information']")).isDisplayed());
+		
+	}
+	
+	@Test(priority = 2)
+	public void InvalidIdandInvalidPassswordCredentials()
+	{
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver(); // Launch ChromeBrowser
+		driver.manage().window().maximize();   // Maximize Browser Window
+		driver.get("https://tutorialsninja.com/demo");  // Application URL
+		
+		driver.findElement(By.xpath("//span[text()='My Account']")).click();
+		driver.findElement(By.xpath("//a[text()='Login']")).click();
+		driver.findElement(By.id("input-email")).sendKeys("amotooricap12@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("123456");
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		
+		Assert.assertTrue(driver.findElement(By.xpath("//div[@class='alert alert-danger alert-dismissible']")).isDisplayed());
+
+	}
+
+}

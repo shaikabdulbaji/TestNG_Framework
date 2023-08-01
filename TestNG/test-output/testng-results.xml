@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-31T21:48:17 IST" name="Suite" finished-at="2023-07-31T21:48:18 IST" duration-ms="439">
+    <groups>
+      <group name="all">
+        <method signature="aLogin.loginwithvalididandvalidpassword()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandvalidpassword()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithvalididandInvalidpassword()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandInvalidpassword()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithNoidandNopassword()[pri:5, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithNoidandNopassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="bRegister.registerwithMandatoryfields()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithMandatoryfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAllfields()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAllfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithDuplicatefields()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithDuplicatefields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAnyfields()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAnyfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="cSearch.serachwithValidProduct()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithValidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <method signature="cSearch.serachwithInvalidProduct()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithInvalidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <method signature="cSearch.serachwithEmptyProduct()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithEmptyProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+      </group> <!-- all -->
+      <group name="search">
+        <method signature="cSearch.serachwithValidProduct()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithValidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <method signature="cSearch.serachwithInvalidProduct()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithInvalidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <method signature="cSearch.serachwithEmptyProduct()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithEmptyProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+      </group> <!-- search -->
+      <group name="regression">
+        <method signature="aLogin.loginwithvalididandvalidpassword()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandvalidpassword()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithvalididandInvalidpassword()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandInvalidpassword()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithNoidandNopassword()[pri:5, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithNoidandNopassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="bRegister.registerwithMandatoryfields()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithMandatoryfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAllfields()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAllfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithDuplicatefields()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithDuplicatefields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAnyfields()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAnyfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="cSearch.serachwithValidProduct()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithValidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <method signature="cSearch.serachwithInvalidProduct()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithInvalidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <method signature="cSearch.serachwithEmptyProduct()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithEmptyProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="aLogin.loginwithvalididandvalidpassword()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandInvalidpassword()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="bRegister.registerwithMandatoryfields()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithMandatoryfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAllfields()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAllfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="cSearch.serachwithValidProduct()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithValidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="aLogin.loginwithvalididandvalidpassword()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandvalidpassword()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithvalididandInvalidpassword()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandInvalidpassword()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithNoidandNopassword()[pri:5, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithNoidandNopassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="bRegister.registerwithMandatoryfields()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithMandatoryfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAllfields()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAllfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithDuplicatefields()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithDuplicatefields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAnyfields()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAnyfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="cSearch.serachwithValidProduct()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithValidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <method signature="cSearch.serachwithInvalidProduct()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithInvalidProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <method signature="cSearch.serachwithEmptyProduct()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" name="serachwithEmptyProduct" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+      </group> <!-- sanity -->
+      <group name="login">
+        <method signature="aLogin.loginwithvalididandvalidpassword()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandvalidpassword()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithvalididandInvalidpassword()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithInvalididandInvalidpassword()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithInvalididandInvalidpassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+        <method signature="aLogin.loginwithNoidandNopassword()[pri:5, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" name="loginwithNoidandNopassword" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+      </group> <!-- login -->
+      <group name="register">
+        <method signature="bRegister.registerwithMandatoryfields()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithMandatoryfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAllfields()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAllfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithDuplicatefields()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithDuplicatefields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <method signature="bRegister.registerwithAnyfields()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" name="registerwithAnyfields" class="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+      </group> <!-- register -->
+    </groups>
+    <test started-at="2023-07-31T21:48:17 IST" name="LoginTest" finished-at="2023-07-31T21:48:18 IST" duration-ms="181">
+      <class name="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin">
+        <test-method signature="loginwithvalididandvalidpassword()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" started-at="2023-07-31T21:48:18 IST" name="loginwithvalididandvalidpassword" finished-at="2023-07-31T21:48:18 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalididandvalidpassword -->
+        <test-method signature="loginwithInvalididandvalidpassword()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" started-at="2023-07-31T21:48:18 IST" name="loginwithInvalididandvalidpassword" finished-at="2023-07-31T21:48:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalididandvalidpassword -->
+        <test-method signature="loginwithvalididandInvalidpassword()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" started-at="2023-07-31T21:48:18 IST" name="loginwithvalididandInvalidpassword" finished-at="2023-07-31T21:48:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalididandInvalidpassword -->
+        <test-method signature="loginwithInvalididandInvalidpassword()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" started-at="2023-07-31T21:48:18 IST" name="loginwithInvalididandInvalidpassword" finished-at="2023-07-31T21:48:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalididandInvalidpassword -->
+        <test-method signature="loginwithNoidandNopassword()[pri:5, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin@741a8937]" started-at="2023-07-31T21:48:18 IST" name="loginwithNoidandNopassword" finished-at="2023-07-31T21:48:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithNoidandNopassword -->
+      </class> <!-- b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin -->
+    </test> <!-- LoginTest -->
+    <test started-at="2023-07-31T21:48:18 IST" name="RegisterTest" finished-at="2023-07-31T21:48:18 IST" duration-ms="28">
+      <class name="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister">
+        <test-method signature="registerwithMandatoryfields()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" started-at="2023-07-31T21:48:18 IST" name="registerwithMandatoryfields" finished-at="2023-07-31T21:48:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerwithMandatoryfields -->
+        <test-method signature="registerwithAllfields()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" started-at="2023-07-31T21:48:18 IST" name="registerwithAllfields" finished-at="2023-07-31T21:48:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerwithAllfields -->
+        <test-method signature="registerwithDuplicatefields()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" started-at="2023-07-31T21:48:18 IST" name="registerwithDuplicatefields" finished-at="2023-07-31T21:48:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerwithDuplicatefields -->
+        <test-method signature="registerwithAnyfields()[pri:4, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister@1e0b4072]" started-at="2023-07-31T21:48:18 IST" name="registerwithAnyfields" finished-at="2023-07-31T21:48:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerwithAnyfields -->
+      </class> <!-- b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister -->
+    </test> <!-- RegisterTest -->
+    <test started-at="2023-07-31T21:48:18 IST" name="SearchTest" finished-at="2023-07-31T21:48:18 IST" duration-ms="21">
+      <class name="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch">
+        <test-method signature="serachwithValidProduct()[pri:1, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" started-at="2023-07-31T21:48:18 IST" name="serachwithValidProduct" finished-at="2023-07-31T21:48:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachwithValidProduct -->
+        <test-method signature="serachwithInvalidProduct()[pri:2, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" started-at="2023-07-31T21:48:18 IST" name="serachwithInvalidProduct" finished-at="2023-07-31T21:48:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachwithInvalidProduct -->
+        <test-method signature="serachwithEmptyProduct()[pri:3, instance:b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch@45099dd3]" started-at="2023-07-31T21:48:18 IST" name="serachwithEmptyProduct" finished-at="2023-07-31T21:48:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachwithEmptyProduct -->
+      </class> <!-- b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch -->
+    </test> <!-- SearchTest -->
+  </suite> <!-- Suite -->
+</testng-results>

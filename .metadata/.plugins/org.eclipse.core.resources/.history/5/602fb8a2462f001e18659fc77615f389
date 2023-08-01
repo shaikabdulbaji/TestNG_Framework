@@ -1,0 +1,10 @@
+package thirdAutoGeneratingClassesOfTestng;
+
+public class bManualWayOfCreatingTestNGClasses {
+	
+	public void a()
+	{
+		
+	}
+
+}

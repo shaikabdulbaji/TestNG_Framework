@@ -1,0 +1,13 @@
+package a9HardAssertionsandSoftAssertions;
+
+import org.testng.annotations.Test;
+
+public class aHardAssertions {
+	
+	@Test
+	public void sampleMethod()
+	{
+		
+	}
+
+}

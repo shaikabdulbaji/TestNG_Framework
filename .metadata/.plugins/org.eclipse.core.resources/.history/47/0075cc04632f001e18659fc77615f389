@@ -1,0 +1,18 @@
+package a8AssertionInTestNG;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class aDemo {
+	
+	@Test
+	public void sampleMethod()
+	{
+		String str1 = "shaik";
+		String str2 = "abdul";
+		
+		Assert.assertEquals(str1, str2);
+		
+	}
+
+}

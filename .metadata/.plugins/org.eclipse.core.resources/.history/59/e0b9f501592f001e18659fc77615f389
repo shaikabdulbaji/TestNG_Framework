@@ -1,0 +1,13 @@
+package a6UsingPriorityInTestNG;
+
+import org.testng.annotations.Test;
+
+public class aDemo {
+	
+	@Test
+	public void sampleOne()
+	{
+		System.out.println("SampleOne Test Method");
+	}
+
+}
