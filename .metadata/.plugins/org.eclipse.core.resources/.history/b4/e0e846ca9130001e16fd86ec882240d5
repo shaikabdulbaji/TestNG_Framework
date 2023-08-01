@@ -1,0 +1,21 @@
+package b34WhywehavetouseObjectarraytoreturndata;
+
+import org.testng.annotations.DataProvider;
+
+public class bSampleProvider {
+
+	
+	
+	// This session about "Multiple DataProvider methods"
+	
+	@DataProvider(name="supplierTwo")
+	public String[][] dataSupplier2()
+	{
+		String[][] data = {{"Shaik","Baji","Red"},
+				{"Abdul","Rasool","Black"},
+				{"Kareem","Shaik","White"}};
+		
+		return data;	
+	}
+	
+}

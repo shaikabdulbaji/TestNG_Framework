@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin" value="loginwithvalididandInvalidpassword;loginwithNoidandNopassword;loginwithInvalididandInvalidpassword;loginwithInvalididandvalidpassword;loginwithvalididandvalidpassword"/>
+        <mapEntry key="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister" value="registerwithDuplicatefields;registerwithMandatoryfields;registerwithAllfields;registerwithAnyfields"/>
+        <mapEntry key="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch" value="serachwithInvalidProduct;serachwithEmptyProduct;serachwithValidProduct"/>
+        <mapEntry key="b19MetagroupsinTestNG.aLogin" value="loginwithvalididandInvalidpassword;loginwithNoidandNopassword;loginwithInvalididandInvalidpassword;loginwithInvalididandvalidpassword;loginwithvalididandvalidpassword"/>
+        <mapEntry key="b19MetagroupsinTestNG.bRegister" value="registerwithDuplicatefields;registerwithMandatoryfields;registerwithAllfields"/>
+        <mapEntry key="b19MetagroupsinTestNG.cSearch" value="serachwithInvalidProduct;serachwithEmptyProduct;serachwithValidProduct"/>
+        <mapEntry key="b20PartialgroupsinTestNG.aLogin" value="loginwithInvalididandInvalidpassword;loginwithInvalididandvalidpassword;loginwithNoidandNopassword;loginwithvalididandvalidpassword;loginwithvalididandInvalidpassword"/>
+        <mapEntry key="b20PartialgroupsinTestNG.bRegister" value="registerwithDuplicatefields;registerwithMandatoryfields;registerwithAllfields"/>
+        <mapEntry key="b20PartialgroupsinTestNG.cSearch" value="serachwithValidProduct;serachwithInvalidProduct;serachwithEmptyProduct"/>
+        <mapEntry key="b25DependsOnGroupsattribute.aLogin" value="loginwithvalididandInvalidpassword;aloginwithNoidandNopassword;loginwithInvalididandvalidpassword"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="b20PartialgroupsinTestNG.aLogin"/>
+        <listEntry value="b19MetagroupsinTestNG.cSearch"/>
+        <listEntry value="b19MetagroupsinTestNG.bRegister"/>
+        <listEntry value="b18GroupingTestsbyUsinggroupsAttributeinTestNG.cSearch"/>
+        <listEntry value="b20PartialgroupsinTestNG.bRegister"/>
+        <listEntry value="b19MetagroupsinTestNG.aLogin"/>
+        <listEntry value="b18GroupingTestsbyUsinggroupsAttributeinTestNG.bRegister"/>
+        <listEntry value="b20PartialgroupsinTestNG.cSearch"/>
+        <listEntry value="b25DependsOnGroupsattribute.aLogin"/>
+        <listEntry value="b18GroupingTestsbyUsinggroupsAttributeinTestNG.aLogin"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST">
+        <listEntry value="serachwithInvalidProduct"/>
+        <listEntry value="loginwithInvalididandInvalidpassword"/>
+        <listEntry value="loginwithvalididandInvalidpassword"/>
+        <listEntry value="loginwithInvalididandvalidpassword"/>
+        <listEntry value="serachwithInvalidProduct"/>
+        <listEntry value="loginwithvalididandInvalidpassword"/>
+        <listEntry value="loginwithvalididandInvalidpassword"/>
+        <listEntry value="registerwithDuplicatefields"/>
+        <listEntry value="loginwithNoidandNopassword"/>
+        <listEntry value="registerwithDuplicatefields"/>
+        <listEntry value="registerwithMandatoryfields"/>
+        <listEntry value="loginwithNoidandNopassword"/>
+        <listEntry value="registerwithMandatoryfields"/>
+        <listEntry value="serachwithValidProduct"/>
+        <listEntry value="loginwithNoidandNopassword"/>
+        <listEntry value="serachwithInvalidProduct"/>
+        <listEntry value="loginwithInvalididandInvalidpassword"/>
+        <listEntry value="loginwithInvalididandInvalidpassword"/>
+        <listEntry value="registerwithDuplicatefields"/>
+        <listEntry value="loginwithvalididandvalidpassword"/>
+        <listEntry value="aloginwithNoidandNopassword"/>
+        <listEntry value="loginwithvalididandInvalidpassword"/>
+        <listEntry value="loginwithInvalididandvalidpassword"/>
+        <listEntry value="registerwithAllfields"/>
+        <listEntry value="loginwithInvalididandvalidpassword"/>
+        <listEntry value="loginwithInvalididandvalidpassword"/>
+        <listEntry value="registerwithAllfields"/>
+        <listEntry value="serachwithEmptyProduct"/>
+        <listEntry value="registerwithAnyfields"/>
+        <listEntry value="serachwithEmptyProduct"/>
+        <listEntry value="registerwithMandatoryfields"/>
+        <listEntry value="loginwithvalididandvalidpassword"/>
+        <listEntry value="loginwithvalididandvalidpassword"/>
+        <listEntry value="serachwithEmptyProduct"/>
+        <listEntry value="serachwithValidProduct"/>
+        <listEntry value="serachwithValidProduct"/>
+        <listEntry value="registerwithAllfields"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="4"/>
+</launchConfiguration>

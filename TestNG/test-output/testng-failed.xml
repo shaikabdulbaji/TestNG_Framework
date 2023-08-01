@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="b15IgnoreAttributeatClassLevel.aDemo">
+      <class name="b34WhywehavetouseObjectarraytoreturndata.aDemo">
         <methods>
-          <include name="validCredentials1"/>
+          <include name="sample"/>
         </methods>
-      </class> <!-- b15IgnoreAttributeatClassLevel.aDemo -->
+      </class> <!-- b34WhywehavetouseObjectarraytoreturndata.aDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
