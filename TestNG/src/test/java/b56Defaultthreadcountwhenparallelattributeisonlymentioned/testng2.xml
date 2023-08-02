@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" >
+  <test name="Testone"  >
+    <classes>
+      <class name="b56Defaultthreadcountwhenparallelattributeisonlymentioned.aLogin"/>
+      <class name="b56Defaultthreadcountwhenparallelattributeisonlymentioned.bRegister"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Testtwo" >
+    <classes>
+      <class name="b56Defaultthreadcountwhenparallelattributeisonlymentioned.cSearch2"/>
+      <class name="b56Defaultthreadcountwhenparallelattributeisonlymentioned.cSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- Default thread-count when parallel attribute is only mentioned is "5"  -->

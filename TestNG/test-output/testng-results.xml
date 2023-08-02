@@ -1,77 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-02T00:50:03 IST" name="Default suite" finished-at="2023-08-02T00:50:03 IST" duration-ms="162">
+  <suite started-at="2023-08-02T23:48:23 IST" name="Default suite" finished-at="2023-08-02T23:48:54 IST" duration-ms="31336">
     <groups>
     </groups>
-    <test started-at="2023-08-02T00:50:03 IST" name="Default test" finished-at="2023-08-02T00:50:03 IST" duration-ms="162">
-      <class name="b35DifferentreturntypesofDataProvider.dIteratorObject">
-        <test-method signature="sample(java.lang.Object,java.lang.Object)[pri:0, instance:b35DifferentreturntypesofDataProvider.dIteratorObject@c88a337]" started-at="2023-08-02T00:50:03 IST" name="sample" data-provider="supplierOne" finished-at="2023-08-02T00:50:03 IST" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shaik]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abdul]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-08-02T23:48:23 IST" name="Default test" finished-at="2023-08-02T23:48:54 IST" duration-ms="31336">
+      <class name="b59threadPoolSizeattribute.aDemo">
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:23 IST" name="sample" finished-at="2023-08-02T23:48:31 IST" duration-ms="7844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample -->
-        <test-method signature="sample(java.lang.Object,java.lang.Object)[pri:0, instance:b35DifferentreturntypesofDataProvider.dIteratorObject@c88a337]" started-at="2023-08-02T00:50:03 IST" name="sample" data-provider="supplierOne" finished-at="2023-08-02T00:50:03 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abdul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rasool]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:23 IST" name="sample" finished-at="2023-08-02T23:48:31 IST" duration-ms="8051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample -->
-        <test-method signature="sample(java.lang.Object,java.lang.Object)[pri:0, instance:b35DifferentreturntypesofDataProvider.dIteratorObject@c88a337]" started-at="2023-08-02T00:50:03 IST" name="sample" data-provider="supplierOne" finished-at="2023-08-02T00:50:03 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shaik]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kareem]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:31 IST" name="sample" finished-at="2023-08-02T23:48:37 IST" duration-ms="5614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample -->
-        <test-method signature="sample(java.lang.Object,java.lang.Object)[pri:0, instance:b35DifferentreturntypesofDataProvider.dIteratorObject@c88a337]" started-at="2023-08-02T00:50:03 IST" name="sample" data-provider="supplierOne" finished-at="2023-08-02T00:50:03 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hussain]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abdul]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:31 IST" name="sample" finished-at="2023-08-02T23:48:37 IST" duration-ms="5810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample -->
-      </class> <!-- b35DifferentreturntypesofDataProvider.dIteratorObject -->
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:37 IST" name="sample" finished-at="2023-08-02T23:48:42 IST" duration-ms="5464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:37 IST" name="sample" finished-at="2023-08-02T23:48:43 IST" duration-ms="6412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:42 IST" name="sample" finished-at="2023-08-02T23:48:47 IST" duration-ms="5253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:43 IST" name="sample" finished-at="2023-08-02T23:48:49 IST" duration-ms="5609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:47 IST" name="sample" finished-at="2023-08-02T23:48:53 IST" duration-ms="5628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:49 IST" name="sample" finished-at="2023-08-02T23:48:54 IST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- b59threadPoolSizeattribute.aDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="b34WhywehavetouseObjectarraytoreturndata.aDemo">
+      <class name="b58invocationTimeOutattribute.aDemo">
         <methods>
           <include name="sample"/>
         </methods>
-      </class> <!-- b34WhywehavetouseObjectarraytoreturndata.aDemo -->
+      </class> <!-- b58invocationTimeOutattribute.aDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

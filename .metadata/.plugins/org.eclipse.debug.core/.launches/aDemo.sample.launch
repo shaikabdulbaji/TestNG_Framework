@@ -5,10 +5,10 @@
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TestNG"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
-        <mapEntry key="b34WhywehavetouseObjectarraytoreturndata.aDemo" value="sample"/>
+        <mapEntry key="b59threadPoolSizeattribute.aDemo" value="sample"/>
     </mapAttribute>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
-        <listEntry value="b34WhywehavetouseObjectarraytoreturndata.aDemo"/>
+        <listEntry value="b59threadPoolSizeattribute.aDemo"/>
     </listAttribute>
     <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST">
         <listEntry value="sample"/>

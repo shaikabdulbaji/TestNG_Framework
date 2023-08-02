@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" >
+
+  <test name="LoginTest" parallel="tests" thread-count="3">
+    <classes>
+      <class name="b47parallelclassesinTestNGParallelExecution.aLogin"/>
+      <class name="b47parallelclassesinTestNGParallelExecution.bRegister"/>
+      <class name="b47parallelclassesinTestNGParallelExecution.cSearch"/>
+      <class name="b47parallelclassesinTestNGParallelExecution.cSearch2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="LoginTest" parallel="tests" thread-count="3">
+    <classes>
+      <class name="b47parallelclassesinTestNGParallelExecution.cSearch"/>
+      <class name="b47parallelclassesinTestNGParallelExecution.cSearch2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+
+<!-- For doing parallel testing we want to give these two attributes 
+	 " parallel="tests" thread-count="2" " at suite level and thread-count="2"and thread-count="3" 
+	 it will work. If we put " parallel="tests" thread-count="2" " at test level it will not show
+	 any error but only "one Thread" will be run and observe the console output, but if we put at 
+	 suite level at a time how many threads we give that many threads will run at a time at suite 
+	 level and observe the console output. -->

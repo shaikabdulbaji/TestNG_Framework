@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="Testone" parallel="methods" thread-count="5" >
+    <classes>
+      <class name="b49Multipletesttagsbutonlyfewtesttagsenabledforparallelexecution.aLogin"/>
+      <class name="b49Multipletesttagsbutonlyfewtesttagsenabledforparallelexecution.bRegister"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Testtwo" >
+    <classes>
+      <class name="b49Multipletesttagsbutonlyfewtesttagsenabledforparallelexecution.cSearch2"/>
+      <class name="b49Multipletesttagsbutonlyfewtesttagsenabledforparallelexecution.cSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- test tags which mention parallel="classes" will only execute in parallel rest of it wil
+	 execute in sequential order means with only one thread
+	 test tags which mention parallel="methods" will only execute in parallel rest of it wil
+	 execute in sequential order means with only one thread.-->

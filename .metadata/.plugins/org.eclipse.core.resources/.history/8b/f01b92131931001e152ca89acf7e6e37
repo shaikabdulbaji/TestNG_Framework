@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	Parallel Execution of Tests in TestNG using parallel and thread-count attributes
+}
+
