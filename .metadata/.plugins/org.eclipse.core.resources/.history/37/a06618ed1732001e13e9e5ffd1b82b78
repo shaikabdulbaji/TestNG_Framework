@@ -1,0 +1,15 @@
+package b74TestNGRetryusingIRetryAnalyzerandIAnnotationTransformer;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
+public class MyRetryAnalyzer implements IRetryAnalyzer{
+
+	@Override
+	public boolean retry(ITestResult result) {
+
+		
+		return false;
+	}
+
+}

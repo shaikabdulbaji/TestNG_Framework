@@ -3,11 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="b58invocationTimeOutattribute.aDemo">
+      <class name="b75TestNGverboseattributetestngxmlfile.aLogin">
         <methods>
-          <include name="sample"/>
+          <include name="validIdandvalidPassswordCredentials"/>
+          <include name="setUp"/>
+          <include name="beforeclass"/>
+          <include name="tearDown"/>
+          <include name="afterclass"/>
+          <include name="beforesuite"/>
+          <include name="InvalidIdandvalidPassswordCredentials"/>
+          <include name="aftertest"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
         </methods>
-      </class> <!-- b58invocationTimeOutattribute.aDemo -->
+      </class> <!-- b75TestNGverboseattributetestngxmlfile.aLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
