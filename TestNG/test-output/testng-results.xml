@@ -1,53 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-02T23:48:23 IST" name="Default suite" finished-at="2023-08-02T23:48:54 IST" duration-ms="31336">
+  <suite started-at="2023-08-03T10:13:23 IST" name="Suite" finished-at="2023-08-03T10:13:49 IST" duration-ms="25565">
     <groups>
+      <group name="all">
+        <method signature="bRegister.registerwithAllfields()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.bRegister@7b36aa0c]" name="registerwithAllfields" class="b68TakingscreenshotsforFailedTestsusingListeners.bRegister"/>
+        <method signature="bRegister.registerwithAnyfields()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.bRegister@7b36aa0c]" name="registerwithAnyfields" class="b68TakingscreenshotsforFailedTestsusingListeners.bRegister"/>
+        <method signature="bRegister.registerwithDuplicatefields()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.bRegister@7b36aa0c]" name="registerwithDuplicatefields" class="b68TakingscreenshotsforFailedTestsusingListeners.bRegister"/>
+        <method signature="bRegister.registerwithMandatoryfields()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.bRegister@7b36aa0c]" name="registerwithMandatoryfields" class="b68TakingscreenshotsforFailedTestsusingListeners.bRegister"/>
+      </group> <!-- all -->
     </groups>
-    <test started-at="2023-08-02T23:48:23 IST" name="Default test" finished-at="2023-08-02T23:48:54 IST" duration-ms="31336">
-      <class name="b59threadPoolSizeattribute.aDemo">
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:23 IST" name="sample" finished-at="2023-08-02T23:48:31 IST" duration-ms="7844" status="PASS">
+    <test started-at="2023-08-03T10:13:23 IST" name="Test" finished-at="2023-08-03T10:13:49 IST" duration-ms="25565">
+      <class name="b68TakingscreenshotsforFailedTestsusingListeners.cSearch">
+        <test-method signature="serachwithEmptyProduct()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.cSearch@437da279]" started-at="2023-08-03T10:13:23 IST" name="serachwithEmptyProduct" finished-at="2023-08-03T10:13:23 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:23 IST" name="sample" finished-at="2023-08-02T23:48:31 IST" duration-ms="8051" status="PASS">
+        </test-method> <!-- serachwithEmptyProduct -->
+        <test-method signature="serachwithInvalidProduct()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.cSearch@437da279]" started-at="2023-08-03T10:13:23 IST" name="serachwithInvalidProduct" finished-at="2023-08-03T10:13:23 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:31 IST" name="sample" finished-at="2023-08-02T23:48:37 IST" duration-ms="5614" status="PASS">
+        </test-method> <!-- serachwithInvalidProduct -->
+        <test-method signature="serachwithValidProduct()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.cSearch@437da279]" started-at="2023-08-03T10:13:23 IST" name="serachwithValidProduct" finished-at="2023-08-03T10:13:23 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:31 IST" name="sample" finished-at="2023-08-02T23:48:37 IST" duration-ms="5810" status="PASS">
+        </test-method> <!-- serachwithValidProduct -->
+      </class> <!-- b68TakingscreenshotsforFailedTestsusingListeners.cSearch -->
+      <class name="b68TakingscreenshotsforFailedTestsusingListeners.aLogin">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:23 IST" name="beforesuite" finished-at="2023-08-03T10:13:23 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:37 IST" name="sample" finished-at="2023-08-02T23:48:42 IST" duration-ms="5464" status="PASS">
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:23 IST" name="beforetest" finished-at="2023-08-03T10:13:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:37 IST" name="sample" finished-at="2023-08-02T23:48:43 IST" duration-ms="6412" status="PASS">
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:23 IST" name="beforeclass" finished-at="2023-08-03T10:13:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:42 IST" name="sample" finished-at="2023-08-02T23:48:47 IST" duration-ms="5253" status="PASS">
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:23 IST" name="setUp" finished-at="2023-08-03T10:13:28 IST" duration-ms="4634" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:43 IST" name="sample" finished-at="2023-08-02T23:48:49 IST" duration-ms="5609" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="validIdandvalidPassswordCredentials()[pri:1, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:28 IST" name="validIdandvalidPassswordCredentials" finished-at="2023-08-03T10:13:30 IST" duration-ms="1501" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Edit your account information abcd']"}
+  (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-BH9IM1PN', ip: '192.168.0.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01dde8ef4f2b15fd1349fe89c546e090
+*** Element info: {Using=xpath, value=//a[text()='Edit your account information abcd']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Edit your account information abcd']"}
+  (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-BH9IM1PN', ip: '192.168.0.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01dde8ef4f2b15fd1349fe89c546e090
+*** Element info: {Using=xpath, value=//a[text()='Edit your account information abcd']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at b68TakingscreenshotsforFailedTestsusingListeners.aLogin.validIdandvalidPassswordCredentials(aLogin.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:47 IST" name="sample" finished-at="2023-08-02T23:48:53 IST" duration-ms="5628" status="PASS">
+        </test-method> <!-- validIdandvalidPassswordCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:30 IST" name="tearDown" finished-at="2023-08-03T10:13:30 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="sample()[pri:0, instance:b59threadPoolSizeattribute.aDemo@1de76cc7]" started-at="2023-08-02T23:48:49 IST" name="sample" finished-at="2023-08-02T23:48:54 IST" duration-ms="5281" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:30 IST" name="setUp" finished-at="2023-08-03T10:13:33 IST" duration-ms="3075" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- b59threadPoolSizeattribute.aDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidIdandInvalidPassswordCredentials()[pri:2, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:33 IST" name="InvalidIdandInvalidPassswordCredentials" finished-at="2023-08-03T10:13:35 IST" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidIdandInvalidPassswordCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:35 IST" name="tearDown" finished-at="2023-08-03T10:13:35 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:35 IST" name="setUp" finished-at="2023-08-03T10:13:38 IST" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validIdandInvalidPassswordCredentials()[pri:3, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:38 IST" name="validIdandInvalidPassswordCredentials" finished-at="2023-08-03T10:13:39 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validIdandInvalidPassswordCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:39 IST" name="tearDown" finished-at="2023-08-03T10:13:40 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:40 IST" name="setUp" finished-at="2023-08-03T10:13:43 IST" duration-ms="2998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EmptyIdandEmptyPassswordCredentials()[pri:4, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:43 IST" name="EmptyIdandEmptyPassswordCredentials" finished-at="2023-08-03T10:13:44 IST" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyIdandEmptyPassswordCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:44 IST" name="tearDown" finished-at="2023-08-03T10:13:44 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:44 IST" name="setUp" finished-at="2023-08-03T10:13:47 IST" duration-ms="2980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidIdandvalidPassswordCredentials()[pri:5, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:47 IST" name="InvalidIdandvalidPassswordCredentials" finished-at="2023-08-03T10:13:49 IST" duration-ms="1405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidIdandvalidPassswordCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:49 IST" name="tearDown" finished-at="2023-08-03T10:13:49 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:49 IST" name="afterclass" finished-at="2023-08-03T10:13:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:49 IST" name="aftertest" finished-at="2023-08-03T10:13:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.aLogin@4a883b15]" started-at="2023-08-03T10:13:49 IST" name="aftersuite" finished-at="2023-08-03T10:13:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- b68TakingscreenshotsforFailedTestsusingListeners.aLogin -->
+      <class name="b68TakingscreenshotsforFailedTestsusingListeners.bRegister">
+        <test-method signature="registerwithAllfields()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.bRegister@7b36aa0c]" started-at="2023-08-03T10:13:49 IST" name="registerwithAllfields" finished-at="2023-08-03T10:13:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerwithAllfields -->
+        <test-method signature="registerwithAnyfields()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.bRegister@7b36aa0c]" started-at="2023-08-03T10:13:49 IST" name="registerwithAnyfields" finished-at="2023-08-03T10:13:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerwithAnyfields -->
+        <test-method signature="registerwithDuplicatefields()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.bRegister@7b36aa0c]" started-at="2023-08-03T10:13:49 IST" name="registerwithDuplicatefields" finished-at="2023-08-03T10:13:49 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerwithDuplicatefields -->
+        <test-method signature="registerwithMandatoryfields()[pri:0, instance:b68TakingscreenshotsforFailedTestsusingListeners.bRegister@7b36aa0c]" started-at="2023-08-03T10:13:49 IST" name="registerwithMandatoryfields" finished-at="2023-08-03T10:13:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerwithMandatoryfields -->
+      </class> <!-- b68TakingscreenshotsforFailedTestsusingListeners.bRegister -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

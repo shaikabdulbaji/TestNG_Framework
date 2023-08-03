@@ -1,0 +1,41 @@
+package b63ImplementingListenersatClassLevelListenersannotation;
+
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+@Listeners(MyTestListeners.class)
+public class aLogin {
+	
+	@Test
+	public void loginwithvalididandvalidpassword()
+	{
+		System.out.println("loginwithvalididandvalidpassword - Login -->"+Thread.currentThread().getId());
+	}
+	
+	@Test
+	public void loginwithInvalididandvalidpassword()
+	{
+		System.out.println("loginwithInvalididandvalidpassword - Login -->"+Thread.currentThread().getId());
+		Assert.assertTrue(false);
+	}
+	
+	@Test
+	public void loginwithvalididandInvalidpassword()
+	{
+		System.out.println("loginwithvalididandInvalidpassword - Login  -->"+Thread.currentThread().getId());
+	}
+	
+	@Test
+	public void loginwithInvalididandInvalidpassword()
+	{
+		System.out.println("loginwithvalididandvalidpassword - Login -->"+Thread.currentThread().getId());
+	}
+	
+	@Test
+	public void loginwithNoidandNopassword()
+	{
+		System.out.println("loginwithNoidandNopassword - Login -->"+Thread.currentThread().getId());
+	}
+
+}

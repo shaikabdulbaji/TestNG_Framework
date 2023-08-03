@@ -1,0 +1,10 @@
+package b68uBase;
+
+public class Base {
+	
+	public void takeScreenShot(WebDriver driver, String testName)
+	{
+		
+	}
+
+}

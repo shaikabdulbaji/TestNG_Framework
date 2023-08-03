@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+ 	<listener class-name="b65onStartandonFinishITestListenermethods.MyTestListeners" />
+ </listeners>
+ 
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="b65onStartandonFinishITestListenermethods.aLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="b65onStartandonFinishITestListenermethods.bRegister"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="b65onStartandonFinishITestListenermethods.cSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- In previous session class-name="b64ImplementingListenersatSuiteLevelintestngxmlfile.MyTestListeners" 
+	 b64ImplementingListenersatSuiteLevelintestngxmlfile this is package name don't forgot.
+	 packagename.listenersclassname 
+	 
+	 Now present session we learn abot Onstart() and Onfinish()
+	 Onstart() - This will execute before each test tag level.
+	 Onfinish() - This will execute after each test tag level.   -->
