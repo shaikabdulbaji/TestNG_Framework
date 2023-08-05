@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- If we put groups at "test" level for individual classes in testng.xml file it works 
+	 only for particular class and runs the particular "tags" methods which we are 
+	 specified at "Partial Grouping" -->
+
+  <test thread-count="5" name="LoginTest">
+    <groups>
+       <run>
+      	 <include name="smoke"/>
+       </run>
+     </groups>
+    <classes>
+      <class name="b20PartialgroupsinTestNG.aLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="RegisterTest">
+  	<groups>
+       <run>
+      	 <include name="all"/>
+       </run>
+     </groups>
+    <classes>
+      <class name="b20PartialgroupsinTestNG.bRegister"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="SearchTest">
+   <groups>
+       <run>
+      	 <include name="smoke"/>
+       </run>
+     </groups>
+    <classes>
+      <class name="b20PartialgroupsinTestNG.cSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

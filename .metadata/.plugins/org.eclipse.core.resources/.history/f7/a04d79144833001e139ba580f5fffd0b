@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="Testone" parallel="none" thread-count="2" >
+    <classes>
+      <class name="b51parallelnoneinTestNGParallelExecution.aLogin"/>
+      <class name="b51parallelnoneinTestNGParallelExecution.bRegister"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Testtwo" >
+    <classes>
+      <class name="b51parallelnoneinTestNGParallelExecution.cSearch2"/>
+      <class name="b51parallelnoneinTestNGParallelExecution.cSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- 
+	 The suite tag which mention parallel="none" thread-count="2 will only execute in 
+	 sequential order means with only one thread.
+	 
+	 -->

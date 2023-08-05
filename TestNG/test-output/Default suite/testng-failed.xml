@@ -3,20 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="b75TestNGverboseattributetestngxmlfile.aLogin">
+      <class name="b40ExecutingtestsinparallelbyspecifyingparallelattributeinDataProvider.aDemo">
         <methods>
-          <include name="validIdandvalidPassswordCredentials"/>
-          <include name="setUp"/>
-          <include name="beforeclass"/>
-          <include name="tearDown"/>
-          <include name="afterclass"/>
-          <include name="beforesuite"/>
-          <include name="InvalidIdandvalidPassswordCredentials"/>
-          <include name="aftertest"/>
-          <include name="aftersuite"/>
-          <include name="beforetest"/>
+          <include name="validCredentials" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- b75TestNGverboseattributetestngxmlfile.aLogin -->
+      </class> <!-- b40ExecutingtestsinparallelbyspecifyingparallelattributeinDataProvider.aDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

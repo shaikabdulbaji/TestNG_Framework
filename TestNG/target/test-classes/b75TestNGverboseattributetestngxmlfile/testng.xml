@@ -8,5 +8,10 @@
   </test> <!-- Test -->
 </suite> <!-- Suite -->
 
-<!-- The verbose was used at suite level only if we pur verbose as 1 there is no difference but 
-	 we put verbose more than 1 then we will see the difference-->
+<!-- 
+
+	 The verbose was used at suite level only if we put verbose as "1" there 
+	 is no difference but we put verbose more than 1 then we will see the 
+	 difference.
+	 
+	 -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" >
+
+  <test name="LoginTest" parallel="tests" thread-count="3">
+    <classes>
+      <class name="b46paralleltestswontworkforparallelexecutionattesttaglevel.aLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="RegisterTest">
+    <classes>
+      <class name="b46paralleltestswontworkforparallelexecutionattesttaglevel.bRegister"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="SearchTest">
+    <classes>
+      <class name="b46paralleltestswontworkforparallelexecutionattesttaglevel.cSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- In before session we learn about using parallel="tests" thread-count="2" at suite level
+	 For doing parallel testing we want to give these two attributes 
+	 " parallel="tests" thread-count="2" " at suite level and thread-count="2"
+	 and thread-count="3" it will work.
+	 
+	 In present session we learn about using parallel="tests" thread-count="2" at suite level 
+	 If we put " parallel="tests" thread-count="2" "
+	 at test level it will not show any error but only "one Thread" will be run and 
+	 observe the console output, but if we put at suite level at a time how many threads
+	 we give that many threads will run at a time at suite level and observe the console
+	 output. -->

@@ -1,0 +1,4 @@
+@Ignore
+package b16IgnoreAttributeatPackageLevel;
+
+import org.testng.annotations.Ignore;
