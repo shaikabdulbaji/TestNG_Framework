@@ -1,5 +1,0 @@
-package b74TestNGRetryusingIRetryAnalyzerandIAnnotationTransformer;
-
-public class MyAnnotationTransformer {
-
-}
